@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     color: #1e212c;
 }
-
 .n1 {
     width: 100%;
 }
@@ -21,11 +19,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
 .n3 {
     font-size: 25px;
 }
-
 .n3 span {
     color: #ff3f3a;
 }
