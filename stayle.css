@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     color: #1e212c;
 }
+
 .n1 {
     width: 100%;
 }
@@ -19,9 +21,12 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .n3 {
     font-size: 25px;
+    font-weight: 800;
 }
+
 .n3 span {
     color: #ff3f3a;
 }
@@ -29,6 +34,7 @@ body {
 .n4 {
     display: flex;
     gap: 25px;
+    list-style: none;
 }
 
 .n4 a {
@@ -79,6 +85,7 @@ body {
     font-size: 12px;
     color: #787a80;
     margin-bottom: 12px;
+    letter-spacing: 1px;
 }
 
 .n12 {
@@ -136,6 +143,7 @@ body {
 }
 
 .n22 {
+    list-style: none;
     margin-bottom: 25px;
 }
 
@@ -154,6 +162,7 @@ body {
 .n24 {
     width: 85%;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 .n25 {
@@ -169,7 +178,7 @@ body {
 
 .n29 {
     display: grid;
-   
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
@@ -246,6 +255,7 @@ body {
 }
 
 .n39 a {
+    text-decoration: none;
     color: #787a80;
     padding: 12px 20px;
     border: 1px solid #eee;
@@ -253,7 +263,7 @@ body {
     font-size: 13px;
 }
 
-.n39 a   {
+.n39 a {
     color: #ff3f3a;
     border-color: #ff3f3a;
 }
@@ -276,12 +286,14 @@ body {
 
 .n40 p {
     font-size: 13px;
+    line-height: 1.8;
     color: #787a80;
 }
 
 .n40 img {
     width: 50%;
     height: 300px;
+    object-fit: contain;
 }
 .n41 {
     background: #f4f5f6;
@@ -290,7 +302,8 @@ body {
 
 .n42 {
     width: 85%;
-    margin: auto
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .n42 p,.n47 p,.n53 p {
@@ -299,11 +312,9 @@ body {
     margin-bottom: 8px;
 }
 
-.n42 h2,
-.n47 h2 {
+.n42 h2,.n47 h2 {
     font-size: 27px;
 }
-
 .n43 {
     width: 85%;
     margin: auto;
@@ -317,15 +328,18 @@ body {
 .n43 button {
     width: 35px;
     height: 35px;
+    border: none;
     border-radius: 50%;
     background: #ff3f3a;
     color: white;
+    cursor: pointer;
 }
 
 .n44 {
     width: 85%;
     margin: auto;
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
@@ -373,14 +387,20 @@ body {
 
 .n49 {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
 .n50 {
     box-shadow: 0 5px 20px #00000010;
     border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
+.n50:hover {
+    transform: translateY(-5px);
+}
 
 .n50 img {
     width: 100%;
@@ -405,6 +425,7 @@ body {
 .n51 p {
     color: #787a80;
     font-size: 12px;
+    line-height: 1.6;
 }
 
 .n51 a {
@@ -447,7 +468,8 @@ body {
     border: none;
     padding: 13px 25px;
     border-radius: 3px;
-}   
+    cursor: pointer;
+}
 .n55 {
     background: #1e212c;
     color: white;
@@ -457,6 +479,8 @@ body {
     width: 85%;
     margin: auto;
     padding: 55px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr 2fr;
     gap: 30px;
 }
 
@@ -472,7 +496,6 @@ body {
 .n57 p {
     color: #a0a0a0;
     font-size: 12px;
-    line-height: 1.7;
 }
 
 .n58 {
@@ -493,12 +516,16 @@ body {
     gap: 12px;
 }
 
-.n59 h3,.n60 h3,.n61 h3,.n62 h3 {
+.n59 h3,
+.n60 h3,
+.n61 h3,
+.n62 h3 {
     font-size: 13px;
     margin-bottom: 8px;
 }
 
-.n59 a,.n60 a {
+.n59 a,
+.n60 a {
     color: #a0a0a0;
     text-decoration: none;
     font-size: 12px;
@@ -515,6 +542,7 @@ body {
     background: #393c46;
     border: 1px solid #555;
     color: white;
+    outline: none;
     border-radius: 3px;
 }
 
